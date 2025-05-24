@@ -1,0 +1,56 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e63946;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+#denuncias {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff3cd;
+    padding: 1.5rem;
+    border-left: 6px solid #ffc107;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#denuncias h2 {
+    margin-bottom: 0.5rem;
+    color: #856404;
+}
+
+#denuncias p {
+    margin-bottom: 0.5rem;
+    color: #5c4402;
+}
